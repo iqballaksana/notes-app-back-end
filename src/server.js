@@ -4,7 +4,7 @@ const routes = require('./routes');
 const init = async () => {
   const server = Hapi.server({
     port: 5000,
-    host: 'https://notes-app-back-end-dicodig.herokuapp.com',
+    host: 'notes-app-back-end-dicodig.herokuapp.com',
   });
 
   server.route(routes);
